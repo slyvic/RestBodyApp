@@ -11,6 +11,7 @@
 		08F6D6032973E48900D159C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F6D6022973E48900D159C7 /* ContentView.swift */; };
 		08F6D6052973E48A00D159C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F6D6042973E48A00D159C7 /* Assets.xcassets */; };
 		08F6D6082973E48A00D159C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F6D6072973E48A00D159C7 /* Preview Assets.xcassets */; };
+		08F6D60F29740B9B00D159C7 /* restbody.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 08F6D60E29740B9B00D159C7 /* restbody.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		08F6D6022973E48900D159C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08F6D6042973E48A00D159C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08F6D6072973E48A00D159C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08F6D60E29740B9B00D159C7 /* restbody.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = restbody.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				08F6D6002973E48900D159C7 /* RestBodyAppApp.swift */,
 				08F6D6022973E48900D159C7 /* ContentView.swift */,
+				08F6D60E29740B9B00D159C7 /* restbody.mlmodel */,
 				08F6D6042973E48A00D159C7 /* Assets.xcassets */,
 				08F6D6062973E48A00D159C7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F6D60F29740B9B00D159C7 /* restbody.mlmodel in Sources */,
 				08F6D6032973E48900D159C7 /* ContentView.swift in Sources */,
 				08F6D6012973E48900D159C7 /* RestBodyAppApp.swift in Sources */,
 			);
